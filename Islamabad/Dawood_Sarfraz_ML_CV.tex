@@ -1,0 +1,306 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[T1]{fontenc}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+	\vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+	\item\small{
+		{#1 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\classesList}[4]{
+	\item\small{
+		{#1 #2 #3 #4 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{\large#1} & \textbf{\small #2} \\
+		\textit{\large#3} & \textit{\small #4} \\
+		
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+		\small#1 & \textbf{\small #2}\\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+	
+	%----------HEADING----------
+	
+	
+	\begin{center}
+		{\Huge \scshape Dawood Sarfraz} \\ \vspace{1pt}
+		Islamabad, Pakistan \\ \vspace{1pt}
+		\small 
+		\href{tel:+9203061757838}{\raisebox{-0.1\height}{\faPhone} {+923061757838}} ~ 
+		\href{mailto:yourname@gmail.com}{\raisebox{-0.2\height}{\faEnvelope} {dawoodsarfraz.cs@gmail.com}} ~ 
+		\href{https://linkedin.com/in/dawood-sarfraz-0466541b6}{\raisebox{-0.2\height}{\faLinkedin} {Dawood Sarfraz}} ~
+		\href{https://github.com/Daudsarfraz}{\raisebox{-0.2\height}{\faGithub} 
+			{Daudsarfraz}} ~
+		\href{https://daudsarfraz.github.io/DawoodSarfraz/}{\raisebox{-0.2\height}{\faGlobe} {DawoodSarfraz}}
+		\vspace{-5pt}
+	\end{center}
+	
+	%-----------OBJECTIVE-----------
+	%\section{\textcolor{blue}{OBJECTIVE}}
+	%{I am Dawood Sarfraz.}
+	
+	%-----------EDUCATION-----------
+	\section{\textcolor{blue}{EDUCATION}}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{National University of Computer and Emerging Sciences (FAST NUCES)}{}
+	{Bachelor of Science in Computer Science }{Sep 2020 - Sep 2024}
+	\resumeSubHeadingListEnd
+	\vspace{-10pt}
+	
+	
+	%-----------PROGRAMMING SKILLS-----------
+	\section{\textcolor{blue}{LANGUAGES AND TECHNOLOGIES}}
+	\begin{itemize}[leftmargin=0.15in, label={}]
+		\small{\item{
+				
+				\textbf{\normalsize{Programming Languages:}}{ \normalsize{Python, Julia, C, C++, JavaScript}} \\
+				\textbf{\normalsize{Machine Learning \& Data Science:}}{ \normalsize{PyTorch, scikit-learn, TensorFlow, Keras, Numpy, Matplotlib, scipy, Panadas, seaborn, nltk, spaCy, OpenCV}} \\
+				\textbf{\normalsize{Cloud \& DevOps:}}{ \normalsize{AWS, Docker, Kubernetes, Jenkins}} \\
+				\textbf{\normalsize{Tools \& Technologies:}}{ \normalsize{Git, SourceTree, gitolite,  Trello, Pytest}} \\	
+				\textbf{\normalsize{Software Development Methodologies:}}{ \normalsize{Agile, Unit Testing, Integration Testing, Automated Testing}} \\
+				\textbf{\normalsize{Project Management Software:}}{ \normalsize{TaskJuggler}} \\	
+				\textbf{\normalsize{Web Frameworks:}}{ \normalsize{Django, Flask, FastAPI}} \\
+				\textbf{\normalsize{Generative AI:}}{\normalsize{ BERT, AI-Agents, RAG, Finetuning, Langchain, LoRa, QLoRa, Adapters, Vector Databases, Large Language Models, HuggingFace, GANs, Transformers}} \\
+				\textbf{\normalsize{Performance Measurement:}}{\normalsize{ Memory Profiler, gprof2dot, valgrind}} \\
+		}}
+	\end{itemize}
+	\vspace{-15pt}
+	
+	%-----------EXPERIENCE-----------
+	\section{\textcolor{blue}{EXPERIENCE}}
+	\resumeSubHeadingListStart
+	
+	\resumeSubheading
+	{Research Assistant}{Sep 2023 – Sep 2024}
+	{Machine Learning Engineer}{Remote, Pakistan}
+	\resumeItemListStart
+	\resumeItem{\normalsize{Worked on a research project classifying skin cancer using CNN, ShuffleNet, and NasNet Models.}}
+	\resumeItem{\normalsize{Gained experience in medical data processing and deep learning architectures.}}
+	\resumeItemListEnd
+	
+	% Duplicate Entry (if needed for some reason)
+	\resumeSubheading
+	{Anonymous Tree}{July 2023 – Aug 2023}
+	{Machine Learning Engineer}{Remote, Pakistan}
+	\resumeItemListStart
+	\resumeItem{\normalsize{Worked as a Machine Learning Engineer.}}
+	\resumeItem{\normalsize{Assisted beginners in learning core concepts of Machine Learning.}}
+	\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd
+	\vspace{-10pt}
+	
+	%-----------PROJECTS-----------
+	\section{\textcolor{blue}{PROJECTS}}
+	\vspace{-5pt}
+	\resumeSubHeadingListStart
+	
+	\resumeProjectHeading
+	{\textbf{\large{{Deep Learning Approaches for Multi-Class Cancer Classification}}} }{June 2024 – Sep 2024}
+	\resumeItemListStart
+	\resumeItem{\normalsize Developed a classification method using a dataset of 10,000+ dermoscopic images.}
+	\resumeItem{\normalsize Addressed class imbalance with RandomOverSampler.}
+	\resumeItem{\normalsize Trained three CNN architectures: \textbf{Custom CNN} (Acc: 92\%, Prec: 0.92, Rec: 0.92, F1: 0.92), \textbf{NasNet} (Acc: 93\%, Prec: 0.94, Rec: 0.93, F1: 0.93), and \textbf{ShuffleNet} (Acc: 87\%, Prec: 0.87, Rec: 0.87, F1: 0.87).}
+	\resumeItemListEnd
+	\vspace{-15pt}
+	
+	%-----------------------------------
+	
+	\resumeProjectHeading
+	{{\textbf{\large{{Enhancing Medical Education through Immersive Virtual Reality}}}}}{Sep 2023 - May 2024}
+	\resumeItemListStart
+	\resumeItem{\normalsize Developing a \textbf{VR-based Medical Training System}.}
+	\resumeItem{\normalsize Created \textbf{VR medical simulations} with haptic feedback for realistic training of medical students.}
+	\resumeItem{\normalsize The goal of the project is to reduce costs and ethical concerns associated with traditional surgical training methods.}
+	\resumeItem{\textcolor{blue}{\href{https://github.com/Daudsarfraz/MetaMed}{\underline{\normalsize{Project Link}}}}}
+	\resumeItemListEnd
+	\vspace{-15pt}
+	
+	%-------------------------------------
+	
+	\resumeProjectHeading
+	{{\textbf{\large{{Duplicate Questions Pair}}}}
+		\large{}}{June 2023 - July 2023}
+	\resumeItemListStart
+	\resumeItem{\normalsize Build a model that can \textbf{Identify and Detect Duplicate} question pairs}
+	\resumeItem{\normalsize {Applied different algorithms like \textbf{Random Forest Classifier, XB Classifier, Decision Tree Classifier}}}
+	\resumeItem{\normalsize {XGB Classifier performed very well and \textbf{achived 80\% Accuracy}}}
+	\resumeItem{\textcolor{blue} {\href{https://github.com/Daudsarfraz/duplicate-questions-pair} {\underline{\normalsize{Project Link}}}}}
+	\resumeItemListEnd
+	\vspace{-15pt}
+	
+	%----------------------------------------
+	
+	\resumeProjectHeading
+	{{\textbf{\large{{Pakistan Food Prices Analysis}}}}
+		\large{}}{Nov 2023 – Dec 2023}
+	\resumeItemListStart
+	\resumeItem{\normalsize{\textbf{Kaggle} Dataset \textbf{Food Prices in Pakistan} and apply preprocessing techniques.}}
+	\resumeItem{\normalsize{Used different Algos like \textbf{Linear Regression, AdaBoost, Random Forest}}}
+	\resumeItem{\normalsize{\textbf{Linear Regression} performed well and achived \textbf{90\% accuracy.}}}
+	\resumeItem{\textcolor{blue} {\href{https://github.com/Daudsarfraz/Pakistan-Food-Price-Analysis} {\underline{\normalsize{Project Link}}}}}
+	\resumeItemListEnd
+	\vspace{-15pt}
+	
+	%----------------------------------------
+	
+	\resumeProjectHeading
+	{{\textbf{\large{{Electrionic Products Recommendation System}}}}
+		\large{}}{April 2023 - May 2023}
+	\resumeItemListStart
+	\resumeItem{\normalsize{\textbf{Amazon Electronic Products} Dataset to develope a \textbf{Recommendation System}}}
+	\resumeItem{\normalsize{Used Algorithms like \textbf{KNN Basic, KNN Means, KNN ZScore, SVD, SVDpp, NMF, SlopeOne, CoClustering}}}
+	\resumeItem{\normalsize{\textbf{SVD and SVDpp} performed outstanding with \textbf{Maximum Accuracy}}}
+	\resumeItem{\textcolor{blue} {\href{https://github.com/Daudsarfraz/Pakistan-Food-Price-Analysis} {\underline{\normalsize{Project Link}}}}}
+	\resumeItemListEnd
+	\vspace{-15pt}
+	
+	%----------------------------------------
+	
+	\resumeProjectHeading
+	{{\textbf{\large{{Cyber Attacks Classification using Machine Learning}}}}
+		\large{}}{Mar 2023 – April 2023}
+	\resumeItemListStart
+	\resumeItem{\normalsize Project focuses on utilizing Machine Learing to \textbf{classify and identify different types of cyber attacks}}
+	\resumeItem{\normalsize {Cleaning, normalizing, and transforming the collected data into a suitable formate}}
+	\resumeItem{\normalsize {Applied various algorithms \textbf{MLP} performed well with \textbf{93\% accuracy}}}
+	\resumeItem{\textcolor{blue} {\href{https://github.com/Daudsarfraz/Cyber-Attacks-Classification-using-Machine-Learning} {\underline{\normalsize{Project Link}}}}}
+	\resumeItemListEnd
+	\vspace{-5pt}
+	\resumeSubHeadingListEnd
+	\vspace{5pt}
+	
+	%-----------PROGRAMMING SKILLS-----------
+	%\section{\textcolor{blue}{LANGUAGES AND TECHNOLOGIES}}
+	%\begin{itemize}[leftmargin=0.15in, label={}]
+	%	\small{\item{
+			%			
+			%			\textbf{\normalsize{Programming Languages:}}{ \normalsize{Python, Julia, C, C++, JavaScript}} \\
+			%			\textbf{\normalsize{Machine Learning \& Data Science:}}{ \normalsize{PyTorch, scikit-learn, TensorFlow, Keras, Numpy, Matplotlib, scipy, Panadas, seaborn, nltk, spaCy, OpenCV}} \\
+			%			\textbf{\normalsize{Cloud \& DevOps:}}{ \normalsize{AWS, Docker, Kubernetes, Jenkins}} \\
+			%			\textbf{\normalsize{Tools \& Technologies:}}{ \normalsize{Git, SourceTree, gitolite,  Trello, Pytest}} \\	
+			%			\textbf{\normalsize{Software Development Methodologies:}}{ \normalsize{Agile, Unit Testing, Integration Testing, Automated Testing}} \\
+			%			\textbf{\normalsize{Project Management Software:}}{ \normalsize{TaskJuggler}} \\	
+			%			\textbf{\normalsize{Web Frameworks:}}{ \normalsize{Django, Flask, FastAPI}} \\
+			%			\textbf{\normalsize{Generative AI:}}{\normalsize{ BERT, AI-Agents, RAG, Finetuning, Langchain, LoRa, QLoRa, Adapters, Vector, Databases, Large Language Models, HuggingFace, GANs, Transformers}} \\
+			%	}}
+	%\end{itemize}
+	%\vspace{-5pt}
+	
+	%\section*{\textcolor{blue}{PUBLICATIONS}}
+	
+	%\begin{itemize}
+	%	\item \textbf{Title:} ``Deep Learning Approaches for Multi-Class Cancer Classification:
+	%	A Comparative Study of CNN, ShuffleNet, and NasNet Models'' \hfill \textit{Status: Under Review} \\ 
+	%	Journal Name, Year.
+	%	\item \textbf{Title:} ``Gastrointestinal Disease Classification using Endoscopic Images'' \hfill \textit{Status: In Progress} \\ 
+	%	Conference Name, Year.
+	%	\item \textbf{Title:} ``Solo Paper Title'' \hfill \textit{Status: Accepted} \\ 
+	%	Journal Name, Year.
+	%\end{itemize}
+	
+	%\section*{Publications}
+	
+	%\begin{itemize}
+	%	\item \textbf{Title:} ``Title of the Paper'' \\ 
+	%	\textit{Status: Published} \hfill \textit{Year: YYYY} \\
+	%	\textit{Journal Name}
+	
+	%\item \textbf{Title:} ``Another Paper Title'' \\ 
+	%\textit{Status: In Review} \hfill \textit{Year: YYYY} \\
+	%\textit{Conference Name}
+	
+	%\item \textbf{Title:} ``Solo Paper Title'' \\ 
+	%\textit{Status: Accepted} \hfill \textit{Year: YYYY} \\
+	%\textit{Journal Name}
+	%\end{itemize}
+	
+	
+	%\vspace{-5pt}  % Adjust spacing as needed
+	
+	
+	
+	
+\end{document}
