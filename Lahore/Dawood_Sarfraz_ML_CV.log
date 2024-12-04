@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.11.26)  5 DEC 2024 00:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.11.26)  5 DEC 2024 01:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -746,27 +746,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 127.
 
-Overfull \hbox (0.54585pt too wide) in paragraph at lines 172--174
+Overfull \hbox (0.54585pt too wide) in paragraph at lines 173--175
 []  
  []
 
 
-Overfull \hbox (0.54585pt too wide) in paragraph at lines 184--186
+Overfull \hbox (0.54585pt too wide) in paragraph at lines 185--187
 []  
  []
 
 
-Overfull \hbox (0.54585pt too wide) in paragraph at lines 197--199
+Overfull \hbox (0.54585pt too wide) in paragraph at lines 196--198
 []  
  []
 
 
-Overfull \hbox (0.54585pt too wide) in paragraph at lines 210--212
+Overfull \hbox (0.54585pt too wide) in paragraph at lines 207--209
 []  
  []
 
 
-Overfull \hbox (0.54585pt too wide) in paragraph at lines 225--227
+Overfull \hbox (0.54585pt too wide) in paragraph at lines 219--221
 []  
  []
 
@@ -785,11 +785,11 @@ Package rerunfilecheck Info: File `Dawood_Sarfraz_ML_CV.out' has not changed.
 (rerunfilecheck)             Checksum: 6CF9B1C7F103AC3368C496143F3005B9;443.
  ) 
 Here is how much of TeX's memory you used:
- 24647 strings out of 474222
- 468169 string characters out of 5748732
- 1956975 words of memory out of 5000000
- 46502 multiletter control sequences out of 15000+600000
- 573327 words of font info for 69 fonts, out of 8000000 for 9000
+ 24645 strings out of 474222
+ 468148 string characters out of 5748732
+ 1953975 words of memory out of 5000000
+ 46501 multiletter control sequences out of 15000+600000
+ 572563 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,7n,93p,424b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Br
@@ -802,7 +802,7 @@ onts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm
 </usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1200.pfb>
-Output written on Dawood_Sarfraz_ML_CV.pdf (1 page, 205501 bytes).
+Output written on Dawood_Sarfraz_ML_CV.pdf (1 page, 200961 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
