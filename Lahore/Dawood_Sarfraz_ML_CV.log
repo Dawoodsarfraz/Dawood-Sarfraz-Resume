@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.11.26)  5 DEC 2024 20:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.11.26)  5 DEC 2024 20:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -746,17 +746,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 127.
 
-Overfull \hbox (0.54585pt too wide) in paragraph at lines 172--174
+Overfull \hbox (0.54585pt too wide) in paragraph at lines 171--173
 []  
  []
 
 
-Overfull \hbox (0.54585pt too wide) in paragraph at lines 184--186
+Overfull \hbox (0.54585pt too wide) in paragraph at lines 183--185
 []  
  []
 
 
-Overfull \hbox (0.54585pt too wide) in paragraph at lines 193--195
+Overfull \hbox (0.54585pt too wide) in paragraph at lines 192--194
 []  
  []
 
@@ -772,6 +772,11 @@ Overfull \hbox (0.54585pt too wide) in paragraph at lines 211--213
 
 
 Overfull \hbox (0.54585pt too wide) in paragraph at lines 220--222
+[]  
+ []
+
+
+Overfull \hbox (0.54585pt too wide) in paragraph at lines 229--231
 []  
  []
 
@@ -792,7 +797,7 @@ Package rerunfilecheck Info: File `Dawood_Sarfraz_ML_CV.out' has not changed.
 Here is how much of TeX's memory you used:
  24645 strings out of 474222
  468148 string characters out of 5748732
- 1948975 words of memory out of 5000000
+ 1951975 words of memory out of 5000000
  46501 multiletter control sequences out of 15000+600000
  572563 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -807,10 +812,10 @@ onts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm
 </usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfxc1200.pfb>
-Output written on Dawood_Sarfraz_ML_CV.pdf (1 page, 199921 bytes).
+Output written on Dawood_Sarfraz_ML_CV.pdf (1 page, 199165 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  45 words of extra memory for PDF output out of 10000 (max. 10000000)
 
