@@ -74,12 +74,13 @@
 }
 
 
-\newcommand{\resumeProjectHeading}[2]{
+\newcommand{\resumeProjectHeading}[1]{
 	\item
 	\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
-		\small#1 & \textbf{\small #2}\\
+		\small#1 & \\
 	\end{tabular*}\vspace{-7pt}
 }
+
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
@@ -96,7 +97,6 @@
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \begin{document}
 	
@@ -120,34 +120,34 @@
 	%{I am Dawood Sarfraz.}
 	
 		%-----------EDUCATION-----------
-	\section{\textcolor{black}{EDUCATION}}
+	\section{\textcolor{black}{Education}}
 	\resumeSubHeadingListStart
 	\resumeSubheading
-	{FAST National University of Computer and Emerging Sciences, Islamabad}{}
+	{FAST National University of Computer and Emerging Sciences}{}
 	{Bachelor's in Computer Science }{Sep 2020 - Sep 2024}
 	\resumeSubHeadingListEnd
 	\vspace{-12pt}
 
 		%-----------PROGRAMMING SKILLS-----------
-	\section{\textcolor{black}{LANGUAGES AND TECHNOLOGIES}}
+	\section{\textcolor{black}{Skills}}
 	\begin{itemize}[leftmargin=0.01in, label={}]
 		{\item{
 				\textbf{\normalsize{Languages:}}{ \normalsize{Python, C++}} \\
 				\textbf{\normalsize{Cloud \& DevOps:}}{ \normalsize{Docker, Kubernetes, Jenkins}} \\
 				\textbf{\normalsize{Tools:}}{ \normalsize{Git, Google Colab, Jupyter Notebook,Visual Studio}} \\		
-				\textbf{\normalsize{Web Frameworks:}}{ \normalsize{Django, Flask, FastAPI, Gradio, Streamlit}} \\
+				\textbf{\normalsize{Web Frameworks:}}{ \normalsize{Streamlit}} \\
 				\textbf{\normalsize{Libraries:}}{ \normalsize{PyTorch, scikit-learn, TensorFlow, Keras, NumPy, Matplotlib, SciPy, Pandas, Seaborn, NLTK, spaCy, OpenCV}} \\
 		}}
 	\end{itemize}
 	\vspace{-18pt}
 	
 	%-----------EXPERIENCE-----------
-	\section{\textcolor{black}{EXPERIENCE}}
+	\section{\textcolor{black}{Experience}}
 	\resumeSubHeadingListStart
 	
 	\resumeSubheading
 	{Research Assistant}{Sep 2023 – Sep 2024}
-	{Machine Learning Engineer}{Remote, Pakistan}
+	{Machine Learning Engineer}{Remote}
 	\resumeItemListStart
 	\resumeItem{\normalsize{Worked on a research project focused on classifying skin cancer using CNN, ShuffleNet, and NasNet models, gaining experience in medical data processing and deep learning architectures.}}
 	\resumeItemListEnd
@@ -155,7 +155,7 @@
 	% Duplicate Entry (if needed for some reason)
 	\resumeSubheading
 	{Anonymous Tree}{July 2023 – Aug 2023}
-	{Machine Learning Engineer}{Remote, Pakistan}
+	{Machine Learning Engineer}{Remote}
 	\resumeItemListStart
 	\resumeItem{\normalsize{Worked as a Machine Learning Engineer, assisting beginners in learning core concepts of Machine Learning.}}
 	\resumeItemListEnd
@@ -164,68 +164,66 @@
 	\vspace{-30pt}
 	
 	%-----------PROJECTS-----------
-	\section{\textcolor{black}{PROJECTS}}
+	\section{\textcolor{black}{Projects}}
 	\vspace{-5pt}
 	\resumeSubHeadingListStart
 	
 \resumeProjectHeading
 {\textbf{\large{Multi-Class Cancer Classification}}} 
-{June 2024 -- Sep 2024}
 \resumeItemListStart
-\resumeItem{\normalsize{Developed a multi-class classification model using a dataset of 10,000+ dermoscopic images to identify different skin cancer types.}}
-\resumeItem{\normalsize{Addressed class imbalance by implementing the RandomOverSampler technique to improve model performance.}}
-\resumeItem{\normalsize{Trained three CNN architectures: {Custom CNN}, {NasNet}, and {ShuffleNet}.}}
+\resumeItem{\normalsize{Built a multi-class model with 10,000+ dermoscopic images to classify skin cancer types. Trained Custom CNN, NasNet, and ShuffleNet models.}}
 \resumeItemListEnd
 \vspace{-15pt}
 
-
 	%-----------------------------------
 	
+	
+		%-----------------------------------
+	
 	\resumeProjectHeading
-	{\textbf{\large{{Enhancing Medical Education through Immersive VR }}}\href{https://github.com/Daudsarfraz/MetaMed}{\normalsize{\color{blue} Project Link}}}{Sep 2023 - May 2024}
+	{\textbf{\large{{PaperScope }}}\href{https://github.com/Daudsarfraz/Paperscope}{\normalsize{\color{blue} Project Link}}}
 	\resumeItemListStart
-	\resumeItem{\normalsize Developing a {VR-based Medical Training System}.}
-	\resumeItem{\normalsize Created {VR medical simulations} with hapticATS by Ehmad Zubair feedback for realistic training of medical students.}
-	\resumeItem{\normalsize The goal of the project is to reduce costs and ethical concerns associated with traditional surgical training methods.}
+	\resumeItem{\normalsize PaperScope is an AI chatbot utilizing RAG, Mistral 7B, and Langchain to analyze and summarize academic papers. It leverages WeaviateDB for efficient document retrieval and context-aware responses.}
+	\resumeItemListEnd
+	\vspace{-15pt}
+	
+	%-------------------------------------------------
+	
+	\resumeProjectHeading
+	{\textbf{\large{{Enhancing Medical Education through Immersive VR }}}\href{https://github.com/Daudsarfraz/MetaMed}{\normalsize{\color{blue} Project Link}}}
+	\resumeItemListStart
+	\resumeItem{\normalsize Developed a VR-based medical training system with haptic feedback for realistic simulations, enhancing surgical training for medical students. Aimed to reduce costs and ethical concerns associated with traditional methods.}
 	\resumeItemListEnd
 	\vspace{-15pt}
 	
 	%-------------------------------------
 	
 	\resumeProjectHeading
-	{\textbf{\large{{Duplicate Questions Pair }}}\href{https://github.com/Daudsarfraz/duplicate-questions-pair}{\normalsize{\color{blue} Project Link}}}{June 2023 - July 2023}
+	{\textbf{\large{{Duplicate Questions Pair }}}\href{https://github.com/Daudsarfraz/duplicate-questions-pair}{\normalsize{\color{blue} Project Link}}}
 	\resumeItemListStart
-	\resumeItem{\normalsize Build a model that can {Identify and Detect Duplicate} question pairs}
-	\resumeItem{\normalsize {Applied different algorithms like {Random Forest Classifier, XB Classifier, Decision Tree Classifier}}}
-	\resumeItem{\normalsize {XGB Classifier performed very well and {achived 80\% Accuracy}}}
+	\resumeItem{\normalsize Built a model to identify and detect duplicate question pairs using Random Forest, XGBoost, and Decision Tree classifiers. Achieved 80\% accuracy with XGBoost classifier.}
 	\resumeItemListEnd
 	\vspace{-15pt}
 	
 	%----------------------------------------
 	
 	\resumeProjectHeading
-	{\textbf{\large{{Text Generation }}}\href{https://github.com/Daudsarfraz/next-word-prediction}{\normalsize{\color{blue} Project Link}}}{Sep 2024 – Oct 2024}	
+	{\textbf{\large{{Text Generation }}}\href{https://github.com/Daudsarfraz/next-word-prediction}{\normalsize{\color{blue} Project Link}}}
 	\resumeItemListStart
-\resumeItem{\normalsize{Worked with an unlabeled dataset consisting of approximately \textbf{2650} unique words and \textbf{800} lines.}}
-\resumeItem{\normalsize{Applied preprocessing techniques and used {LSTM} with {Adam} as the optimizer.}}
-\resumeItem{\normalsize{Achieved an accuracy of approximately {93\%}.}}
+\resumeItem{\normalsize{Processed a 500MB unlabeled dataset with 2650 unique words and 800 data entries. Applied data preprocessing techniques and used LSTM with Adam optimizer, achieving 93\% accuracy.}}
 	\resumeItemListEnd
 	\vspace{-15pt}
-	
 	
 	%----------------------------------------
 	
 	\resumeProjectHeading
-	{\textbf{\large{{Cyber Attacks Classification using Machine Learning }}}\href{https://github.com/Daudsarfraz/Cyber-Attacks-Classification-using-Machine-Learning}{\normalsize{\color{blue} Project Link}}}{Mar 2023 – April 2023}
+	{\textbf{\large{{Cyber Attacks Classification using Machine Learning }}}\href{https://github.com/Daudsarfraz/Cyber-Attacks-Classification-using-Machine-Learning}{\normalsize{\color{blue} Project Link}}}
 	\resumeItemListStart
-	\resumeItem{\normalsize Project focuses on utilizing Machine Learing to classify and identify different types of cyber attacks}
-	\resumeItem{\normalsize {Cleaning, normalizing, and transforming the collected data into a suitable formate}}
-	\resumeItem{\normalsize {Applied various algorithms MLP performed well with 93\% accuracy}}
+	\resumeItem{\normalsize Developed a machine learning model to classify and identify different types of cyberattacks. Preprocessed and transformed data for model use. Achieved 93\% accuracy using MLP.}
 	\resumeItemListEnd
 	\vspace{-5pt}
 	\resumeSubHeadingListEnd
 	\vspace{5pt}
 
-	
-	
+
 \end{document}
